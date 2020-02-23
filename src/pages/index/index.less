@@ -1,0 +1,56 @@
+.taro_page{
+  background-color: #F4F4F4;
+  .index {
+    margin: 0;
+    -webkit-overflow-scrolling:touch;
+    .top-swiper {
+      height: 490px;
+      .item {
+        border-radius: 6px;
+        .img {
+          margin: 0 auto;
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    .menu-box {
+      margin: 0 auto 20px;
+      padding: 10px 0;
+      height: 60px;
+      overflow: hidden;
+      background-color: white;
+      .wrapper {
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        &::-webkit-scrollbar {
+          display:none
+        }
+        .menu-item {
+          position: relative;
+          display: inline-block;
+          margin: 0 22px 0 0;
+          font-size: 28px;
+          line-height: 1.8;
+          color: #5b5b5b;
+        }
+        .item-hover {
+          font-size: 32px;
+          color: #000;
+          .border {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin-left: -20px;
+            display: inline-block;
+            width: 40px;
+            height: 6px;
+            background-color: #f6df77;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+}

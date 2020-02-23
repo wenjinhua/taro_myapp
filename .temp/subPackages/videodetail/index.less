@@ -1,0 +1,145 @@
+.video-detail-box{
+    .video-box{
+        video{
+            width: 100%;
+        }
+        .video-item{
+            .video-cover{
+                image{
+                    width: 320px;
+                    height: 240px;
+                }
+            }
+        }
+    }
+    .tab-content{
+        height: calc(100vh - 470px);
+        .at-tabs__item{
+            font-size: 24px;
+            padding: 24px 12px;
+        }
+        .at-tabs__body{
+            height: 100%;
+            .at-tabs-pane{
+                .video-detail{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    .author-info{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .left{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .avatar{
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 25px;
+                            }
+                            .name-fans{
+                                font-size: 24px;
+                                margin-left: 20px;
+                                .fans-num{
+                                    color: grey;
+                                    display: block;
+                                }
+                            }
+                        }
+                        .follow{
+                            width: 150px;
+                            height: 60px;
+                            background-color: #F4598D;
+                            border-color: white;
+                            font-size: 24px;
+                            color: white;
+                            line-height: 60px;
+                        }
+                    }
+                }
+                .comment-list-box{
+                    padding: 20px;
+                    .comment-item{
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 30px;
+                        .comment-avatar{
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 30px;
+                        }
+                        .comment-info{
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: 20px;
+                            font-size: 26px;
+                            .author{
+                                color: cornflowerblue;
+                            }
+                            .content{
+                                margin: 10px 0;
+                            }
+                            .time{
+                                font-size: 18px;
+                                color: grey;
+                            }
+                        }
+                        .operation{
+                            
+                        }
+                    }
+                }
+                .comment-box{
+                    padding: 20px;
+                    font-size: 26px;
+                    position: fixed;
+                    bottom: 90px;
+                    width: 100%;
+                    border-top: 1px solid lightgray;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    input{
+                        width: 300px;
+                        border: 1px solid grey;
+                        background-color: #F4F4F4;
+                        border-radius: 20px;
+                        padding: 5px 10px;
+                    }
+                    .input-focus{
+                        width: 90%;
+                        height: 80px;
+                    }
+                    .publishComment{
+                        width: 15%;
+                        margin-left: 10px;
+                    }
+                }
+                .danmu-box{
+                    padding: 20px;
+                    font-size: 26px;
+                    position: fixed;
+                    bottom: 90px;
+                    width: 100%;
+                    border-top: 1px solid lightgray;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .danmu-input{
+                        width: 80%;
+                        border: 1px solid grey;
+                        background-color: #F4F4F4;
+                        border-radius: 20px;
+                        padding: 5px 10px;
+                    }
+                    .danmu-send-text{
+                        margin-left: 20px;
+                        color: #F4598D;
+                    }
+                }
+            }
+        }
+    }
+}
